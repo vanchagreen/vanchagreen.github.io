@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-size: 100%;
+  background: url("./elephant.gif") no-repeat center center fixed;
+  background-size: 100% 100vh; }
+
+.header {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid black;
+  padding: 15px 0;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .header .name {
+    color: white;
+    font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica, Arial, Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    font-weight: 600; }
+
+/*# sourceMappingURL=styles.css.map */
