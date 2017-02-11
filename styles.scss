@@ -51,6 +51,7 @@ body {
     font-size: 100%;
     background: url("./elephant.gif") no-repeat center center fixed;
     background-size: 100% 100vh;
+    cursor: none;
 }
 
 .header {
@@ -58,16 +59,24 @@ body {
     height: auto;
     border-bottom: 1px solid black;
     padding: 15px 0;
-    // background-color: rgba(0, 0, 0, 0.5);
     background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
     background-size: 1800% 1800%;
     -webkit-animation: rainbow 30s ease infinite;
     animation: rainbow 30s ease infinite;
+    .name {
+        color: black;
+        font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica, Arial, Tahoma, Geneva, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+    }
 }
 
-.name {
-    color: black;
-    font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica, Arial, Tahoma, Geneva, sans-serif;
-    font-size: 30px;
-    font-weight: 600;
+.logo {
+    width: 40px;
+    height: 54px;
+    background: url('./dancepenguin.gif') no-repeat;
+    background-size: 100%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
